@@ -5,7 +5,7 @@ import pandas as pd
 df = pd.read_csv('extensions.csv', delimiter=';')
 
 # Display the logo (optional, remove if not needed)
-st.image('logo.png', width=150)
+st.image('logo.png', width=250)
 
 # Title and description
 st.title('Name and Extension Search App')
